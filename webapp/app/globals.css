@@ -46,3 +46,11 @@ body {
 		transform: translateX(-50%);
 	}
 }
+
+/* Subtle grid background pattern */
+.bw-grid-bg {
+	background-color: var(--background);
+	background-image: linear-gradient(#EAEAFF 2px, transparent 2px),
+		linear-gradient(90deg, #EAEAFF 2px, transparent 2px);
+	background-size: 24px 24px;
+}
