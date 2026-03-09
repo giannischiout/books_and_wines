@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+:root {
+	/* Colors from books_and_wines logo: warm cream, burgundy accent */
+	--background: #f7efe8;
+	--foreground: #2c2420;
+	--wine: #8b2e2e;
+	--wine-light: #a63d3d;
+	--wine-dark: #6d2323;
+	--cream: #f7efe8;
+	--cream-warm: #f0e8e0;
+	--cream-card: #fffdf8;
+	--text-muted: #4a3f35;
+}
+
+@theme inline {
+	--color-background: var(--background);
+	--color-foreground: var(--foreground);
+	--font-sans: var(--font-source-sans), ui-sans-serif, system-ui, sans-serif;
+	--font-serif: var(--font-playfair), Georgia, serif;
+}
+
+body {
+	background: var(--background);
+	color: var(--foreground);
+	font-family: var(--font-sans);
+}
+
+/* Simple marquee-style scroll for top alert */
+.bw-marquee-track {
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.bw-marquee {
+	display: inline-block;
+	padding-left: 100%;
+	animation: bw-marquee-scroll 18s linear infinite;
+}
+
+@keyframes bw-marquee-scroll {
+	0% {
+		transform: translateX(0);
+	}
+	100% {
+		transform: translateX(-50%);
+	}
+}

@@ -1,0 +1,68 @@
+[
+  {
+    "id": "1",
+    "title": "A Game of Thrones",
+    "author": "George R.R. Martin",
+    "cover": "/book1.jpg",
+    "genre": "Fantasy",
+    "rating": 4.7,
+    "synopsis": "A gripping epic fantasy filled with political intrigue and deadly power struggles in the Seven Kingdoms.",
+    "discussionUrl": "/discussions/game-of-thrones",
+    "publicationYear": 1996
+  },
+  {
+    "id": "2",
+    "title": "Where the Crawdads Sing",
+    "author": "Delia Owens",
+    "cover": "/book2.jpg",
+    "genre": "Literary Fiction",
+    "rating": 4.6,
+    "synopsis": "A mysterious coming-of-age story set in the marshes of North Carolina, blending romance, mystery, and nature.",
+    "discussionUrl": "/discussions/where-the-crawdads-sing",
+    "publicationYear": 2018
+  },
+  {
+    "id": "3",
+    "title": "The Midnight Library",
+    "author": "Matt Haig",
+    "cover": "/book1.jpg",
+    "genre": "Fiction",
+    "rating": 4.5,
+    "synopsis": "Between life and death there is a library, and within that library, the shelves go on forever. Every book provides a chance to try another life you could have lived.",
+    "discussionUrl": "/discussions/the-midnight-library",
+    "publicationYear": 2020
+  },
+  {
+    "id": "4",
+    "title": "Educated",
+    "author": "Tara Westover",
+    "cover": "/book2.jpg",
+    "genre": "Memoir",
+    "rating": 4.8,
+    "synopsis": "A memoir about a young girl who leaves her survivalist family and goes on to earn a PhD from Cambridge University.",
+    "discussionUrl": "/discussions/educated",
+    "publicationYear": 2018
+  },
+  {
+    "id": "5",
+    "title": "The Silent Patient",
+    "author": "Alex Michaelides",
+    "cover": "/book1.jpg",
+    "genre": "Thriller",
+    "rating": 4.4,
+    "synopsis": "A woman's act of violence against her husband—and her refusal to speak—leads a psychotherapist on a twisting search for the truth.",
+    "discussionUrl": "/discussions/the-silent-patient",
+    "publicationYear": 2019
+  },
+  {
+    "id": "6",
+    "title": "Project Hail Mary",
+    "author": "Andy Weir",
+    "cover": "/book2.jpg",
+    "genre": "Science Fiction",
+    "rating": 4.7,
+    "synopsis": "A lone astronaut must save the earth from disaster in this gripping science fiction tale of ingenuity and survival.",
+    "discussionUrl": "/discussions/project-hail-mary",
+    "publicationYear": 2021
+  }
+]

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" fill="none">
+  <defs>
+    <linearGradient id="splash-burgundy" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8b2e2e" stop-opacity="0.25"/>
+      <stop offset="60%" stop-color="#8b2e2e" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#8b2e2e" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="splash-cream" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#e8ddd4" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#f5efe8" stop-opacity="0.08"/>
+    </linearGradient>
+    <linearGradient id="splash-wine" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6d2323" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#8b2e2e" stop-opacity="0.04"/>
+    </linearGradient>
+  </defs>
+  <path d="M50 100 C80 60 140 80 160 120 C180 160 120 200 80 180 C40 160 20 140 50 100 Z" fill="url(#splash-burgundy)"/>
+  <path d="M250 80 C300 100 320 180 280 240 C240 300 180 280 150 220 C120 160 200 60 250 80 Z" fill="#8b2e2e" fill-opacity="0.1"/>
+  <path d="M100 320 C150 280 220 300 260 360 C300 420 240 480 180 440 C120 400 50 360 100 320 Z" fill="url(#splash-wine)"/>
+  <path d="M200 150 C280 120 350 200 320 320 C290 440 180 420 140 320 C100 220 120 180 200 150 Z" fill="url(#splash-cream)"/>
+</svg>

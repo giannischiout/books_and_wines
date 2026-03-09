@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Book Review",
+  "description": "Schema for book reviews in the Books & Wines club",
+  "type": "object",
+  "required": ["id", "title", "author", "cover", "genre", "rating", "synopsis", "discussionUrl"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique identifier for the book"
+    },
+    "title": {
+      "type": "string",
+      "description": "Book title"
+    },
+    "author": {
+      "type": "string",
+      "description": "Author name"
+    },
+    "cover": {
+      "type": "string",
+      "description": "URL or path to book cover image"
+    },
+    "genre": {
+      "type": "string",
+      "description": "Primary genre (e.g., Fantasy, Literary Fiction)"
+    },
+    "rating": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 5,
+      "description": "Club or community rating out of 5"
+    },
+    "synopsis": {
+      "type": "string",
+      "description": "Brief book description or synopsis"
+    },
+    "discussionUrl": {
+      "type": "string",
+      "format": "uri",
+      "description": "Link to discussion thread or join discussion"
+    },
+    "publicationYear": {
+      "type": "integer",
+      "description": "Year of publication (optional)"
+    },
+    "isbn": {
+      "type": "string",
+      "description": "ISBN-10 or ISBN-13 (optional)"
+    }
+  }
+}
