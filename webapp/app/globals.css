@@ -26,16 +26,17 @@ body {
 	font-family: var(--font-sans);
 }
 
-/* Simple marquee-style scroll for top alert */
+/* Full-width endless marquee - never stops */
 .bw-marquee-track {
 	overflow: hidden;
 	white-space: nowrap;
+	width: 100%;
 }
 
 .bw-marquee {
-	display: inline-block;
+	display: inline-flex;
 	padding-left: 100%;
-	animation: bw-marquee-scroll 18s linear infinite;
+	animation: bw-marquee-scroll 25s linear infinite;
 }
 
 @keyframes bw-marquee-scroll {
@@ -47,10 +48,8 @@ body {
 	}
 }
 
-/* Subtle grid background pattern */
+/* Page background - solid cream, no grid */
 .bw-grid-bg {
 	background-color: var(--background);
-	background-image: linear-gradient(#EAEAFF 2px, transparent 2px),
-		linear-gradient(90deg, #EAEAFF 2px, transparent 2px);
-	background-size: 24px 24px;
+	background-image: none;
 }
